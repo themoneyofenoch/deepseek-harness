@@ -1,0 +1,107 @@
+[
+ {
+  "name": "GEEZEASY",
+  "mode": "admin",
+  "notice": "",
+  "members": [
+   "session-4b071706-5975-4218-a852-675e847fd407",
+   "session-56e25a45-d7dd-44c5-9c1c-e9e1f5b5d4b9",
+   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2"
+  ],
+  "admin": "session-4b071706-5975-4218-a852-675e847fd407",
+  "permission": "danger-full-access",
+  "pinned": true,
+  "createdAt": 1792103859632
+ },
+ {
+  "name": "BOOKS 📚📚📚",
+  "mode": "admin",
+  "notice": "",
+  "members": [
+   "session-af87ce33-fa07-4ab9-80dc-af5766ca4479",
+   "session-94401a68-da95-483a-bce1-21d54c9fe5cf",
+   "session-7977edc3-e830-485b-8995-09c6f1d545fb",
+   "session-45ee0933-08dd-4f9b-9282-3c66bce3b4e0",
+   "session-6b78a339-2ef5-44ee-a9eb-5b955689e921",
+   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+   "session-a1c7465b-6b49-400a-99a5-830d52ab4f2b",
+   "session-c76654bc-e019-44a9-93f7-a4fcf8288d10",
+   "session-e890a4dd-3222-4eff-aeea-f5ad54d1a429"
+  ],
+  "admin": "session-af87ce33-fa07-4ab9-80dc-af5766ca4479",
+  "permission": null,
+  "pinned": true,
+  "createdAt": 1792104871828
+ },
+ {
+  "name": "Marketing",
+  "mode": "admin",
+  "notice": "Ammaniel's Marketing room. Members: Marketing Print (print/banners) and Landing Page (kingezana.com). Shared rules: Safari only · ask before acting · never write negative words — write the want · never spend an ISBN or change a version/build without asking · App Store Submit is Ammaniel's click only · files: say where they live + clickable path · replies short, ≤6 lines · group questions: one short line, choices stacked a./b./c., pick 🟢 before the letter.",
+  "members": [
+   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+   "session-b330471d-d308-49d9-adf7-8de791563fea",
+   "session-c76654bc-e019-44a9-93f7-a4fcf8288d10",
+   "session-005d7c0f-2139-483f-b617-105b60a7a2cd"
+  ],
+  "admin": "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+  "permission": null,
+  "pinned": null,
+  "createdAt": 1792195333730
+ },
+ {
+  "name": "Photographer Ammaniel Hintza",
+  "mode": "admin",
+  "notice": "Ammaniel's photography room — engagement sessions, weddings, family shots. Ammaniel Hintza COM owns ammanielhintza.com and the bookings; the marketing Bot here designs the flyers and ads for Instagram and TikTok; Ammaniel does the posting himself. Shared rules: Safari only, ask before acting, never touch a Safari tab the tool did not open, write the want never the negative, say where every file lives with its full absolute clickable path, replies ≤6 lines, group questions = one short line with choices stacked a./b./c. and 🟢 before the pick.",
+  "members": [
+   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+   "session-329611d7-7806-4399-9ce9-2e2d7af21e06",
+   "session-baf1c813-d28f-43cf-ad37-fdf87e16d829",
+   "session-c12a75f1-020b-4f8b-9c90-2c7240b39045"
+  ],
+  "admin": "session-329611d7-7806-4399-9ce9-2e2d7af21e06",
+  "permission": null,
+  "pinned": null,
+  "createdAt": 1792195862652
+ },
+ {
+  "name": "Habesha Marketing",
+  "mode": "admin",
+  "notice": "Ammaniel's habeshamarketing room. Habesha Marketing owns the app/project; Harness guy (admin) handles the harness and setup.",
+  "members": [
+   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+   "session-34e8f127-4aa5-4657-883a-ea8c7ee204cd"
+  ],
+  "admin": "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+  "permission": null,
+  "pinned": true,
+  "createdAt": 1792236738991
+ },
+ {
+  "name": "PRIVATE",
+  "mode": "admin",
+  "notice": "Ammaniel's private room — shopping and health only. Shopping prepares orders, Health tracks habits and appointments. Nothing is bought, sent or shared outside this room without Ammaniel's yes.",
+  "members": [
+   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+   "session-3c09f858-04a1-43d9-ab95-3dbf728f824f",
+   "session-071e7ae9-a10b-48f0-82ba-ba34cec861ce",
+   "session-ed4d7d95-11c3-4a9f-9a0a-bb0615b48667"
+  ],
+  "admin": "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+  "permission": null,
+  "pinned": null,
+  "createdAt": 1792310650633
+ },
+ {
+  "name": "KALKIDAN App",
+  "mode": "admin",
+  "notice": "Kalkidan app store room — App Store Connect (app id 6781901208, com.kalkidan.app) and Google Play (com.kalkidan.app). Publisher Kalkidan checks BOTH stores once a day and reports: what changed, what is waiting on Ammaniel, what it fixed. Submit / production release / version numbers stay Ammaniel's. Short lines, plain words, no logs.",
+  "members": [
+   "session-d0e97032-1c2f-4202-a18b-ca68785c3b50",
+   "session-619116e1-c281-4cdb-92e0-863c0045b836"
+  ],
+  "admin": "session-619116e1-c281-4cdb-92e0-863c0045b836",
+  "permission": null,
+  "pinned": true,
+  "createdAt": 1792321064984
+ }
+]
