@@ -5,10 +5,10 @@
   "notice": "",
   "members": [
    "session-4b071706-5975-4218-a852-675e847fd407",
-   "session-56e25a45-d7dd-44c5-9c1c-e9e1f5b5d4b9",
-   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2"
+   "session-56e25a45-d7dd-44c5-9c1c-e9e1f5b5d4b9"
   ],
   "admin": "session-4b071706-5975-4218-a852-675e847fd407",
+  "workDir": null,
   "permission": "danger-full-access",
   "pinned": true,
   "createdAt": 1792103859632
@@ -23,12 +23,13 @@
    "session-7977edc3-e830-485b-8995-09c6f1d545fb",
    "session-45ee0933-08dd-4f9b-9282-3c66bce3b4e0",
    "session-6b78a339-2ef5-44ee-a9eb-5b955689e921",
-   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
    "session-a1c7465b-6b49-400a-99a5-830d52ab4f2b",
    "session-c76654bc-e019-44a9-93f7-a4fcf8288d10",
-   "session-e890a4dd-3222-4eff-aeea-f5ad54d1a429"
+   "session-e890a4dd-3222-4eff-aeea-f5ad54d1a429",
+   "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2"
   ],
   "admin": "session-af87ce33-fa07-4ab9-80dc-af5766ca4479",
+  "workDir": null,
   "permission": null,
   "pinned": true,
   "createdAt": 1792104871828
@@ -44,6 +45,7 @@
    "session-005d7c0f-2139-483f-b617-105b60a7a2cd"
   ],
   "admin": "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+  "workDir": null,
   "permission": null,
   "pinned": null,
   "createdAt": 1792195333730
@@ -56,9 +58,11 @@
    "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
    "session-329611d7-7806-4399-9ce9-2e2d7af21e06",
    "session-baf1c813-d28f-43cf-ad37-fdf87e16d829",
-   "session-c12a75f1-020b-4f8b-9c90-2c7240b39045"
+   "session-c12a75f1-020b-4f8b-9c90-2c7240b39045",
+   "session-a50bc624-9ed6-4296-806a-0910eede9597"
   ],
   "admin": "session-329611d7-7806-4399-9ce9-2e2d7af21e06",
+  "workDir": null,
   "permission": null,
   "pinned": null,
   "createdAt": 1792195862652
@@ -72,6 +76,7 @@
    "session-34e8f127-4aa5-4657-883a-ea8c7ee204cd"
   ],
   "admin": "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+  "workDir": null,
   "permission": null,
   "pinned": true,
   "createdAt": 1792236738991
@@ -79,14 +84,16 @@
  {
   "name": "PRIVATE",
   "mode": "admin",
-  "notice": "Ammaniel's private room — shopping and health only. Shopping prepares orders, Health tracks habits and appointments. Nothing is bought, sent or shared outside this room without Ammaniel's yes.",
+  "notice": "Ammaniel's private room — health, mail and immigration only. Health tracks habits and private matters, Email owns the two mailboxes, Immigration owns the N-400 case.",
   "members": [
    "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
-   "session-3c09f858-04a1-43d9-ab95-3dbf728f824f",
    "session-071e7ae9-a10b-48f0-82ba-ba34cec861ce",
-   "session-ed4d7d95-11c3-4a9f-9a0a-bb0615b48667"
+   "session-ed4d7d95-11c3-4a9f-9a0a-bb0615b48667",
+   "session-230fa8a3-07bd-461b-abf6-ec919e20eb17",
+   "session-fcbc6c2d-23ef-454c-89e8-40cd1dd40323"
   ],
   "admin": "session-83df3a8f-425a-4895-a5b0-ecd16da3b7f2",
+  "workDir": null,
   "permission": null,
   "pinned": null,
   "createdAt": 1792310650633
@@ -100,8 +107,23 @@
    "session-619116e1-c281-4cdb-92e0-863c0045b836"
   ],
   "admin": "session-619116e1-c281-4cdb-92e0-863c0045b836",
+  "workDir": "/Users/nakfaai/Developer/projects/kalkidan",
   "permission": null,
   "pinned": true,
   "createdAt": 1792321064984
+ },
+ {
+  "name": "Testers",
+  "mode": "admin",
+  "notice": "",
+  "members": [
+   "session-f9f3dcc6-5a93-4908-a748-78a012855ab2",
+   "session-702e8fef-d14a-4e2a-b137-21b3c20dad02"
+  ],
+  "admin": "session-f9f3dcc6-5a93-4908-a748-78a012855ab2",
+  "workDir": null,
+  "permission": null,
+  "pinned": true,
+  "createdAt": 1792535125102
  }
 ]

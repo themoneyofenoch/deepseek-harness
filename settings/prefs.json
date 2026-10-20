@@ -1,4 +1,5 @@
 {
  "theme": "deepseek",
- "motion": "lively"
+ "motion": "lively",
+ "accent": "#EC2F6B"
 }

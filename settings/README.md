@@ -1,6 +1,6 @@
 # Ammaniel's DSH settings — backup
 
-Snapshot of the local DeepSeek Harness setup. Taken 2026-10-19, America/Chicago.
+Snapshot of the local DeepSeek Harness setup. Taken 2026-10-20, America/Chicago.
 Restoring these files onto a fresh Mac brings the same agent back.
 
 ## What is here
@@ -14,8 +14,8 @@ Restoring these files onto a fresh Mac brings the same agent back.
 | `lessons.md` | lessons learned | `~/.dsh/lessons.md` |
 | `skills/` | every installed skill (gpp, office, plugin-*, app-store-ship…) | `~/.dsh/skills/` |
 | `bin/` | `storeship` (Apple + Google shipping), `safari` (real Safari control) | `~/.dsh/bin/` |
-| `bots.json` | all 33 Bots: name, role, colour, model, effort, work dir, instructions, main flag | see restore below |
-| `rooms.json` | the 7 group chats: name, mode, notice, members, admin | see restore below |
+| `bots.json` | all 36 Bots: name, role, colour, model, effort, work dir, instructions, main flag | see restore below |
+| `rooms.json` | the 8 group chats: name, mode, notice, members, admin | see restore below |
 | `prefs.json` | theme + motion | see restore below |
 | `profile/cordis.patch.yml` | profile overrides (default model, search keys, bot ratio…) | `~/.dsh/profiles/desktop/cordis.patch.yml` |
 | `profile/desktop-package.json` | desktop profile bundle list | `~/.dsh/profiles/desktop/package.json` |
