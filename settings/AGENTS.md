@@ -49,6 +49,22 @@ My own persistent agent file (this is MINE, stored in my own repo).
 
 - **NEVER WRITE NEGATIVE WORDS — WRITE THE WANT.** (Ammaniel, 2026-10-16: *"you dont say i am hungry you say i want to eat"* → *"to agents.md we dont use negative words"*) **We do not use negative words.** State what is wanted, never what is refused, destroyed or absent — in ads, posters, captions, blurbs, emails, posts, titles and every line we write. *"Not to destroy a country, but to have one"* becomes **"They meant to have a country"**: cut the negative half and the want is what is left. The negative puts the refusal in the reader's eye and borrows the coloniser's word. If a sentence opens with *not / never / don't / no*, rewrite it as the want. **The book's own sentences stay exactly as the author wrote them** — this rule governs the copy we write around the book; changing his text is his call, not ours.
 
+## 📚 WHERE KNOWLEDGE LIVES — ONE HOME FOR EVERYTHING (locked 2026-10-20)
+
+Every rule, fact and procedure has exactly one home. Before writing anything anywhere, take the first question that fits — and write it in that home only:
+
+1. Must **every Bot obey it in every task**? → this file, `~/.dsh/AGENTS.md`. Short rule lines only.
+2. Is it a **repeatable procedure** with steps? → a skill at `~/.dsh/skills/<name>/SKILL.md`, plus one pointer line in this file.
+3. Is it true **only inside one room**? → that room's **notice**. Its members read it every round; Bots in their own chats never see it.
+4. Is it true **only inside one app or project**? → that project's `AGENTS.md` (loaded from the git root down to the working folder).
+5. Is it **one short fact several Bots need**? → **team memory** (300 characters an entry; detail into a topic).
+6. Is it **one Bot's own detail**? → that Bot's **memory**, long detail into a topic.
+7. Is it **what happened**? → it stays in chat; `read_own_chat` opens it again.
+
+Never: a rule that lives only in chat · a build recipe in memory · a long how-to in this file with no pointer · a room-only rule in this file.
+
+When each home is read: this file and project files at the **first request of a session** (together inside a 64 KB budget) · memory in the **system prompt**, frozen at session start · a room notice **every round in that room** · a skill **only when it is loaded**. Full map, sizes and the split plan: `/Users/nakfaai/.dsh/STRUCTURE.md`.
+
 ## 🎯 PURPOSE PASS (framing) — locked 2026-09-29
 
 Ammaniel, verbatim: **"Why the fight started is wrong ... you dont fight to fight you fight to liberate"**
