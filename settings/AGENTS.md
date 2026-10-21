@@ -65,62 +65,13 @@ Never: a rule that lives only in chat · a build recipe in memory · a long how-
 
 When each home is read: this file and project files at the **first request of a session** (together inside a 64 KB budget) · memory in the **system prompt**, frozen at session start · a room notice **every round in that room** · a skill **only when it is loaded**. Full map, sizes and the split plan: `/Users/nakfaai/.dsh/STRUCTURE.md`.
 
-## 🎯 PURPOSE PASS (framing) — locked 2026-09-29
+## PURPOSE PASS (rule)
 
-Ammaniel, verbatim: **"Why the fight started is wrong ... you dont fight to fight you fight to liberate"**
+The oppressed are never described only by what they did — always also by what they were trying to get. Applies to every book, article, post and caption. Three questions and worked examples: skill `purpose-pass`.
 
-Run this on your own drafts and on anything you are asked to edit — books, articles, posts, captions.
-It is about **accuracy**, not sentiment. A war with no stated purpose is not a neutral description;
-it is a false one.
+## Current Focus
 
-**Three questions on every sentence about them:**
-
-1. **Whose word is it?** *guerrilla, rebel, insurgent, tribal, sectarian, warlord* are the coloniser's
-   shorthand. The same man is a **resistance fighter**. The word tells you which side's dictionary you
-   are reading from.
-2. **Purpose or behaviour?** "They began fighting" says *what*. "They meant to have their country back"
-   says *why*. A sentence with no purpose in it makes people look like weather — something that happens
-   to a place, rather than something that happens to them.
-3. **Who holds the verb?** Are they the subject of their own history, or the object of someone else's?
-   "Ethiopia annexed Eritrea" ≠ "Eritrea was annexed."
-
-**The rule underneath:**
-
-> **The oppressed are never described only by what they did — always also by what they were trying to get.**
-
-**Set the frame early.** State the purpose in the first paragraph of a piece, not the last. If the aim
-arrives on page 200, the reader has spent 199 pages reading the coloniser's frame.
-
-**Worked examples (Eritrea book, 2026-09-29):**
-
-| Was | Now |
-|---|---|
-| "why the fight started" | **"why the liberation started"** |
-| "they began fighting because…" | **"they took up arms — and they meant to have their country back"** |
-| "colonial soldier turned guerrilla" | **"turned resistance fighter"** |
-| "a thirty-year war" | **"a thirty-year liberation war"** |
-| "The War" (chapter title) | **"The Liberation War"** |
-| *(nothing at all)* | **"They meant to have a country"** — front matter. ⚠️ The older wording *"not to destroy a country, but to have one"* is **superseded 2026-10-16** — it opens on the negative, which rule **NEVER WRITE NEGATIVE WORDS — WRITE THE WANT** above forbids. The book keeps the author's words; ads and new copy use the want. |
-
-**Do NOT over-correct.** Leave the neutral word where it is the accurate one: a different war (the
-Second World War), a scholarly debate about a 16th-century revolt, or a quoted source's own vocabulary.
-The point is precision, not a house style that flattens every distinction.
-
-## Current Focus (2026-09-09)
-
-Two parallel tracks — work BOTH every day:
-
-1. **Google Ads → Corporate Headshots (Dallas).** Drive traffic to the ALREADY-LIVE funnel:
-   - https://ammanielhintza.com/corporate-headshots
-   - https://ammanielhintza.com/corporate-headshots/book
-   Goal = **bookings**, not clicks. Never rebuild the funnel. Never put headshots on pixwee.com.
-   Daily: log ad spend/clicks/bookings · pause dead keywords · add negatives · reply to every lead same day.
-2. **The two books** (alternating):
-   - `~/Developer/projects/Books/Ethiopia's Stolen Name`
-   - `~/Developer/projects/Books/PRE`
-   Daily: one concrete writing/editing task.
-
-Weddings (Habesha) = Phase 2, only after headshots is profitable.
+Two tracks every day — the corporate-headshots funnel ads, then the two books. The current list: /Users/nakfaai/.dsh/FOCUS.md
 
 ## Preferences (learned)
 
@@ -146,125 +97,26 @@ Weddings (Habesha) = Phase 2, only after headshots is profitable.
 - (2026-10-18) **BUILDS — THE BUILD SHELF, EVERY APP.** One public page lists every app's newest test build: **https://nakfaai.com/builds** (title "Test builds"). Ammaniel triggers it by naming the app — "pixwee to builds" — and the Bot runs `~/.dsh/bin/storeship link` **in that app's folder**: it finds the APK (`android/app/build/outputs/apk/release/app-release.apk`, or `--apk <path>`), copies it to `~/Developer/projects/builds/public/<slug>/`, deploys `firebase deploy --only hosting:builds --project netbrew-b3fdc`, updates `~/Developer/projects/nakfaai/builds/apps.json` (name, version, date, what's new, Android link), commits and pushes `themoneyofenoch/nakfaai` (auto-deploys `/builds`), and prints the live link. Flags: `--dry`, `--app <slug>`, `--name "App name"`, `--notes "one line"`, `--apk <path>`, `--version X`, `--host <url>`. Files live on `builds.nakfaai.com` (Firebase site `nakfaai-builds-files` in project netbrew-b3fdc; free Spark hosting refuses APKs, so it lives in the Blaze project). A new app needs `slug`/`appName` in its `ship.json`. iPhone builds are TestFlight public links only — an open APK link has no iOS twin.
 - (2026-10-18) **STORESHIP — THE APPLE + PLAY PIPELINE EVERY BOT USES.** One tool: `~/.dsh/bin/storeship` (there is no `/bin/storeship`). Commands: `state`, `init`, `listing [--dry]`, `privacy`, `category`, `age`, `rights`, `pricing`, `review`, `shots <dir>`, `build`, `upload`, `attach`, `testflight`, `validate`, plus the Google Play set: `play-state`, `play-init` (app details/contact), `play-listing [--show|--dry]`, `play-shots <dir> [--type=phoneScreenshots]`, `play-bundle <aab>`, `play-track <track> [versionCodes…] [--status=draft|inProgress|completed] [--rollout=10] [--notes=file] [--dry]`, `play-notes <track> <file>`. Every Play write takes `--dry`, and a production release stays `draft` until Ammaniel says `--publish` — committing a production track starts Play review, so that stays his click. Per-app settings live in the project's `ship.json` (bundleId, SKU, notes, screenshot dir); App Store Connect key `~/Developer/private_keys/AuthKey_DASF43QDRT.p8`, key id `DASF43QDRT`, issuer `0418454e-4e54-4fc7-a387-b3b2460fd5e8`. Start every Apple/Play shipping task with `~/.dsh/bin/storeship state` — it reports what Apple sees and stops before review, so **Submit stays Ammaniel's click**.
 
-## 🔒 STANDARD — TestFlight testers = PUBLIC LINK + QR (never manual adds)
+## TESTFLIGHT — PUBLIC LINK + QR (rule)
 
-Locked 2026-09-16. Never add testers one by one, never keep an email list. Every app gets a TestFlight
-PUBLIC LINK on its external beta group — testers scan the QR / tap the link → install TestFlight → Install → done (10,000 cap).
-API recipe, in order: attach the newest VALID build to the external group → ensure betaAppReviewDetail +
-betaAppLocalizations en-US + build `usesNonExemptEncryption` answered → submit beta review if none exists →
-`PATCH /v1/betaGroups/{id} {publicLinkEnabled:true,publicLinkLimitEnabled:false}` → share
-`https://testflight.apple.com/join/XXXXXXXX`. Script: `facelink/scripts/asc-public-link.js`
-(key AuthKey_DASF43QDRT.p8, KEY_ID DASF43QDRT, team 0418454e-4e54-4fc7-a387-b3b2460fd5e8).
-Testers can install only after Beta App Review approves the build.
+Testers join by one public link and a QR, never a manual email list. Full App Store Connect recipe: skill `testflight-public-link`.
 
-## ☁️ XCODE CLOUD — how every app gets connected (locked 2026-10-17)
+## XCODE CLOUD — one connection per app (rule)
 
-Apple's build machines watch GitHub and build each app there. **One connection per app** — Apple ties a
-product + workflow to the app record / bundle ID. The GitHub grant is shared: `themoneyofenoch` is already
-authorized (team 0418454e-4e54-4fc7-a387-b3b2460fd5e8), so later apps reuse it with no Safari re-login.
-
-**The four things each app needs, in this order:**
-
-1. **A git repo Xcode Cloud can read** — a pushed `main`, `node_modules` excluded, secrets gitignored.
-2. **A shared scheme** that runs `Archive` (`xcodebuild -list` shows it at top level, and
-   `xcshareddata/xcschemes/*.xcscheme` is committed). Autocreation in Xcode makes a scheme that only
-   builds locally — share it via Product → Scheme → Manage Schemes → Shared.
-3. **`ci_scripts` sitting in the SAME folder as the `.xcodeproj`** — `ios/App/ci_scripts/` for a project at
-   `ios/App/App.xcodeproj`, **not** the repo root. That is the single most common breakage: with the folder
-   elsewhere Xcode Cloud silently skips it, SPM then fails on `node_modules/... does not exist` in ~1 min.
-4. **Build scripts must see what they import.** pnpm on Xcode Cloud uses the isolated layout, so a module
-   that exists only as a transitive dependency of vite (`esbuild` was the case) is unresolvable from
-   `scripts/*.mjs` → make it a direct devDependency and push `package.json` + `pnpm-lock.yaml` together.
-
-**Script rules:** file names are fixed — `ci_post_clone.sh`, `ci_pre_xcodebuild.sh`, `ci_post_xcodebuild.sh`;
-executable, shebang first line; Xcode Cloud sets the cwd to `ci_scripts` itself, so use
-`$CI_PRIMARY_REPOSITORY_PATH` for the repo root and always `cd` there before pnpm. Fresh clone every build,
-nothing cached between builds.
-
-**The Node/pnpm pattern that works (GeezEasy, `ios/App/ci_scripts/ci_post_clone.sh`):**
-`set -euo pipefail` → export `PATH`/`NODE_HOME` for Node 22 → `corepack prepare pnpm@11.15.1 --activate`
-→ `corepack pnpm --version` → `cd "$CI_PRIMARY_REPOSITORY_PATH"` → `pnpm install --frozen-lockfile --prod=false`
-→ `export VITE_STORE_BUILD=1` → `pnpm run sync:ios:store` (vite build → native:web → `npx cap sync ios`).
-
-**Ammaniel's clicks per app (he does these, 6 clicks):** open the project in Xcode → **⌘9 Report navigator**
-→ **Cloud** → **Get Started** → select the product → review the summary → **Grant Access** → GitHub
-**Authorize** (Safari) → **Complete** → branch **`main`** → **Start Build**. Everything after that is
-automatic: every push to that repo's `main` builds it (workflow default: clean, auto-cancel).
-
-**Watching builds from a Bot (ASC API, key `~/Developer/private_keys/AuthKey_DASF43QDRT.p8`, JWT aud
-`appstoreconnect-v1`):** `/v1/ciProducts` → `/v1/ciProducts/{id}/workflows` →
-`/v1/ciProducts/{id}/buildRuns` → `/v1/ciBuildRuns/{id}/actions` → `/v1/ciBuildActions/{id}/issues` →
-`/v1/ciBuildActions/{id}/artifacts` (fileType `LOG_BUNDLE`, `GET /v1/ciArtifacts/{id}` gives `downloadUrl`;
-the zip holds `ci_post_clone.log`). Use the relationship endpoints — `/v1/ciBuildRuns` and
-`/v1/ciWorkflows?filter[product]=` return **403** for this key. The API reads; it cannot start a build —
-a build starts from a push or from Ammaniel's Start Build.
-
-**Failure signatures → fix:**
-
-| Issue text | Means | Fix |
-|---|---|---|
-| `Could not resolve package dependencies … node_modules/.pnpm/… doesn't exist` in ~1 min | `ci_post_clone.sh` never ran | move `ci_scripts` beside the `.xcodeproj` |
-| `Running ci_post_clone.sh script failed (exited with code 1)` | script ran and failed | download the log bundle, read `ci_post_clone.log` |
-| `ERR_MODULE_NOT_FOUND: Cannot find package 'X'` | X only transitive | add X as a direct devDependency |
-
-**Rules that stay:** builds only — versions and build numbers move only on Ammaniel's explicit yes for that
-exact number; App Review **Submit** is his click; TestFlight distribution is added to the workflow only when
-he names the build number to distribute.
-
-**Status 2026-10-17:** GeezEasy connected — product `App` `ae3c02f8-eda0-4cb1-b250-61448e556c8d`, workflow
-`Default` `D1792C59-28B4-4409-957C-9C7C26B33B7D` (containerPath `ios/App/App.xcodeproj`, start on `main`),
-builds 1 and 2 FAILED (the two causes above), **build 3 SUCCEEDED on `e0a2e06`**. `main` is 1.6.10 / 93; the
-local 1.6.11 / 95 bump is still uncommitted. Remaining apps (orominia, kalkidan, onme, gottasee, fideltype,
-facelink, wefam, pixwee, tebaateay1/mobile) are **not** connected yet.
+Apple’s machines build every app: a shared scheme, `ci_scripts` beside the `.xcodeproj`, the Node/pnpm pattern, and a push to `main` starts the build. Versions and build numbers move only on Ammaniel’s yes; Submit stays his click. Full steps, failure signatures and status: skill `xcode-cloud`.
 
 ## Stack & Environment
 
 - habeshamarketing app: Next.js 16 + Prisma 6 + SQLite, `pnpm dev` on port **3111** (not 3000).
 - Prisma client must be `pnpm prisma generate`'d after clone (not committed). DB: `prisma/dev.db`.
 
-## Browser / Sandbox notes
+## BROWSER — SAFARI ONLY, ONE BOT TAB AT A TIME (rule)
 
-- **Safari only** (see Rules). `open <url>` opens Safari — use that to show Ammaniel a page.
-- The browser-skill / `bsk` stack drives **Chrome** — it is NOT his real browser and its windows are not his sessions. Ask before using it, and never rely on it for anything that needs his logins.
-- Playwright + Chromium (in the pixwee repo) are fine for headless rendering/checks — that is not "his browser".
-- Note: `bsk` session windows close when Chrome closes; sessions are dropped ("session not registered or already stopped").
-- **Safari control tool** (2026-09-14; hardened 2026-10-11): `~/.dsh/bin/safari` drives Ammaniel's REAL Safari (AppleScript + `do JavaScript`) — `tabs`, `open`, `map`, `text`, `click --text/--aria/--index`, `type`, `js`, `shot`, `wait`. Full docs: `~/.dsh/SAFARI-CONTROL.md`. Use this for "go to this website and do this" requests.
-- **NEVER TOUCH A SAFARI TAB THE TOOL DID NOT OPEN.** (2026-10-11, after a Bot ran raw `osascript` and overwrote the tab Ammaniel was reading) `safari open URL` makes or reuses ONE tab of the tool's own and marks it (`*` in `safari tabs`); every other command works only on such a tab and fails with "no Bot tab is open" instead of reaching for one of his. **Never run `osascript` to set the URL of, close, type into or click in a Safari tab. Never open a URL into his front tab. Never make a new Safari *window*** — `make new document` makes Safari fill it with tabs of its own. Go through the tool, or ask him first. `--any` opts in to his tabs and is almost never right.
-- **ONE TAB PER BOT, ONE BOT AT A TIME.** (2026-10-17, after two Bots fought over the same Safari tab: `~/.dsh/state/safari-bot.json` held a single slot for the whole machine) `~/.dsh/bin/safari` now keeps a tab slot per Bot — the mark is `dsh-bot-tab:<Bot name>`, resolved from `DSH_SESSION_ID` in `~/.dsh/bot/state.json` — and a lock (`~/.dsh/state/safari-lock.json`) lets one Bot drive at a time; a second Bot exits at once with `Safari is busy: <Bot> is using it (Ns)` and never waits, retries in a loop, or reaches for the other Bot's tab (stale after 3 minutes). `safari whoami` shows your name and who holds Safari. Never edit that state file by hand, and never delete the lock to get in.
-- **Safari control needs an UNCONFINED session.** Under the file sandbox Apple Events fail with `-10004 privilege violation`, so the session must run with the sandbox off (danger-full-access) or the tool is dead. Never use `safaridriver` — it opens a separate, logged-out profile.
-- **I CAN SEE THE SCREEN — never tell Ammaniel "I can't see it."** (Ammaniel, 2026-09-29) `screencapture -x -t png /tmp/shot.png` captures his whole screen, and `read_image` reads it. **This includes the harness sidebar browser panel.** So when he says **"you can see it," he is right** — capture and read it. Use this to guide him click-by-click through any GUI (KDP, dashboards, settings, checkout pages) instead of claiming blindness. Downscale first (`resize` ~50%) if the capture is large. Treat screenshots as private: read only what the task needs, and never screenshot without a reason tied to his request.
+Ammaniel uses Safari only. `~/.dsh/bin/safari` drives his real Safari, one tab per Bot under a lock; never touch a tab it did not open, never run raw `osascript`, never open a new window. Apple Events need the sandbox off; Playwright Chromium is only for headless checks. Every limit and tool flag: skill `browser-sandbox`.
 
-## 🔁 AUTOMATION HANDOFF — every scheduled run (locked 2026-09-28)
+## AUTOMATION HANDOFF (rule)
 
-Scheduled automations start a FRESH session each time and never remember yesterday. Keep every
-run small: use a handoff file instead of a long conversation.
-
-1. **Read first** — `/Users/nakfaai/Developer/projects/ideas/state/<slug>.md` if it exists.
-   Slugs: `kalkidan`, `money-focus`, `daily-brief`, `deepseek-midday`, `deepseek-evening`,
-   `flight-prep`, `booking-check`, `salsacubanadallas`.
-2. **One job only** — do exactly what the task prompt says. Nothing extra.
-3. **Write last** — rewrite that same state file, max 20 lines, exactly this shape:
-   ```
-   # <Task name>
-   - Last run: YYYY-MM-DD HH:MM (America/Chicago)
-   - Result: <one line>
-   - In flight: <half-done work, or "nothing">
-   - Next: <the single next action>
-   - Blocked: <what Ammaniel must do, or "nothing">
-   ```
-4. **Append one line** to `/Users/nakfaai/Developer/projects/ideas/state/LOG.md`:
-   `YYYY-MM-DD HH:MM | <task> | <result>` — keep only the newest 200 lines.
-5. The state file is ALWAYS an allowed write, even when the task prompt says "read-only" or
-   "the only file you may write is X". No other permission changes.
-6. If the run truly cannot write, skip silently — never fail the task over the handoff.
-7. Never paste transcripts, logs, or long text into the state file. It is a handoff, not a diary.
-
-### Session rollover (interactive sessions)
-
-When a conversation passes ~40 turns, changes topic, or the context feels heavy: stop, write a
-short `SESSION.md` in the working folder (Status / Done / In flight / Next / Blocked), and tell
-Ammaniel to continue in a NEW session from that file. Never push one session until it costs more
-than it produces.
+Every scheduled run reads its state file first, does one job only, rewrites that file, and appends one line to `state/LOG.md`. Session rollover at about 40 turns. Exact shape and rules: skill `automation-handoff`.
 
 ---
 

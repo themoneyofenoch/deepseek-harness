@@ -115,7 +115,7 @@
  {
   "name": "Testers",
   "mode": "admin",
-  "notice": "",
+  "notice": "Testers room — the shared brief for both testers.\n\nEvery test job runs two layers: web first with skill `e2e-test` (Playwright suite in /Users/nakfaai/.dsh/bot/workspace/e2e/<app>/), then the device layer with skill `device-test` (iPhone: skill ios-ui-automation; Android: skill android-ui-automation).\n\nReports always go to /Users/nakfaai/output/<app>-e2e/ (report/index.html plus shots/). Link only paths outside .dsh; the viewer breaks .dsh workspace links.\n\nBuilds come from /Users/nakfaai/.dsh/bin/storeship. Versions, build numbers, App Review Submit and Play review stay Ammaniel's click.\n\nSay what was checked and how; a guess is a defect. When Ammaniel must act, write the block `## 🔴👽🔴📣 AMMAN TO DO 🔴🔴🔴🔴🔴🔴🔴🔴` with one numbered step per line and its place icon.\n\nRoom order: Tester is admin and reports to Ammaniel; Tester 2 reports to Tester. An approval card cannot appear in this room — when a command needs one, move that step to your own chat or write the red permission block.",
   "members": [
    "session-f9f3dcc6-5a93-4908-a748-78a012855ab2",
    "session-702e8fef-d14a-4e2a-b137-21b3c20dad02"
