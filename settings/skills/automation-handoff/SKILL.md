@@ -30,7 +30,18 @@ run small: use a handoff file instead of a long conversation.
 
 ### Session rollover (interactive sessions)
 
-When a conversation passes ~40 turns, changes topic, or the context feels heavy: stop, write a
-short `SESSION.md` in the working folder (Status / Done / In flight / Next / Blocked), and tell
-Ammaniel to continue in a NEW session from that file. Never push one session until it costs more
-than it produces.
+When a conversation passes ~40 turns, changes topic, or the context feels heavy: stop, rewrite
+`/Users/nakfaai/.dsh/SESSION.md` in the fixed shape below, and tell Ammaniel to continue in a NEW
+session from it. One file for every Bot — the newest session writes it, and nothing else in it.
+
+```
+# SESSION — current
+- Updated: YYYY-MM-DD HH:MM (America/Chicago) · Bot: <name>
+- Status: <one line — where the work stands>
+- Done: <finished items, newest first, one line each>
+- In flight: <half-done work and who holds it>
+- Next: <the single next action>
+- Blocked: <what Ammaniel must do, or "nothing">
+```
+
+Never push one session until it costs more than it produces.

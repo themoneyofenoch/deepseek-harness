@@ -116,7 +116,7 @@ Ammaniel uses Safari only. `~/.dsh/bin/safari` drives his real Safari, one tab p
 
 ## AUTOMATION HANDOFF (rule)
 
-Every scheduled run reads its state file first, does one job only, rewrites that file, and appends one line to `state/LOG.md`. Session rollover at about 40 turns. Exact shape and rules: skill `automation-handoff`.
+Every scheduled run reads its state file first, does one job only, rewrites that file, and appends one line to `state/LOG.md`. Session rollover at about 40 turns, into `/Users/nakfaai/.dsh/SESSION.md`. Exact shape and rules: skill `automation-handoff`.
 
 ---
 
